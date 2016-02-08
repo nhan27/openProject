@@ -9,5 +9,5 @@ EXPOSE 22
 #from https://www.openproject.org/open-source/packaged-installation/packaged-installation-guide/
 RUN rpm --import https://rpm.packager.io/key
 ADD ./openproject.repo /etc/yum.repos.d/openproject.repo
-RUN yum install openproject
+RUN yes yum install openproject
 #need to run openproject configure in shell
