@@ -13,3 +13,4 @@ name=Repository for opf/openproject-ce application.
 baseurl=https://rpm.packager.io/gh/opf/openproject-ce/centos7/stable/5
 enabled=1" | sudo tee /etc/yum.repos.d/openproject.repo
 RUN yum install openproject
+#need to run openproject configure in shell
